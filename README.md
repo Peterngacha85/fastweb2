@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Fastweb Logo](https://img.shields.io/badge/Fastweb-Website%20Design-28A745?style=for-the-badge&logo=wordpress&logoColor=white)
+![Fastweb Logo](https://img.shields.io/badge/Fastweb-Website%20Design-1E3A8A?style=for-the-badge&logo=wordpress&logoColor=white)
 
 **Fast, Affordable Websites for Kenyan Businesses**
 
@@ -17,25 +17,28 @@
 
 ## 🎨 Design Overview
 
-A clean, modern UI homepage design featuring a soft, pastel-inspired color palette perfect for a professional web development agency.
+A clean, modern UI homepage design featuring a professional blue color palette perfect for a business-focused web development agency.
 
 ### 🌈 Color Scheme
 
 | Element | Color | Hex Code |
 |---------|-------|----------|
-| **Background Gradient** | Mint Green → Sky Blue | `#D6F5E3` → `#D0F0FA` |
-| **Primary Button** | Green | `#28A745` |
-| **Headings** | Dark Green | `#155724` |
-| **Body Text** | Medium Gray | `#4F4F4F` |
-| **Accent** | Soft Shadows | `rgba(0, 0, 0, 0.08)` |
+| **Background Gradient** | Soft Sky Blue → Light Steel Blue | `#D0EFFF` → `#B0CFF5` |
+| **Primary Brand Color** | Royal Blue | `#1E3A8A` |
+| **Accent Color** | Electric Blue | `#3B82F6` |
+| **Call-to-Action** | Bold Blue | `#2563EB` |
+| **Headings** | Deep Navy Blue | `#1E293B` |
+| **Body Text** | Medium Gray-Blue | `#475569` |
+| **Shadows** | Blue-tinted | `rgba(30, 58, 138, 0.08)` |
 
 ### 🎯 Design Principles
 
 - ✨ **Soft edges** with rounded corners (8px-16px)
 - 🌬️ **Plenty of white space** for clean layout
-- 🎨 **Flat UI** with gentle shadows
+- 🎨 **Flat UI** with gentle blue-tinted shadows
 - 📱 **Fully responsive** design
 - 🔤 **Clean typography** using Poppins font
+- 💼 **Professional business aesthetic**
 
 ---
 
@@ -117,11 +120,13 @@ Modify the color scheme in `styles.css`:
 
 ```css
 :root {
-  --primary-green: #28A745;
-  --dark-green: #155724;
-  --body-text: #4F4F4F;
-  --mint-green: #D6F5E3;
-  --sky-blue: #D0F0FA;
+  --primary-blue: #1E3A8A;
+  --accent-blue: #3B82F6;
+  --cta-blue: #2563EB;
+  --heading-blue: #1E293B;
+  --body-text: #475569;
+  --sky-blue: #D0EFFF;
+  --steel-blue: #B0CFF5;
 }
 ```
 
